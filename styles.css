@@ -129,3 +129,17 @@ button:hover {
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.card {
+    flex: 1 1 200px;
+    border: 2px solid #d4a017;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #fdf8f0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #4a1c40;
+}
