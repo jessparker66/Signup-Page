@@ -87,3 +87,38 @@ footer {
     margin-top: 40px;
     font-size: 0.9rem;
 }
+
+/* Sign Up Form */
+label {
+    display: block;
+    margin-top: 16px;
+    font-weight: bold;
+    color: #4a1c40;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    max-width: 30rem;
+    font: inherit;
+    border: 2px solid #4a1c40;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 16px;
+    padding: 10px 20px;
+    font: inherit;
+    font-weight: bold;
+    background-color: #d4a017;
+    color: #4a1c40;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a1c40;
+    color: green;
+}
