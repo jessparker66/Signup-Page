@@ -43,7 +43,25 @@
 
         <section id="join" class="box">
             <h2>Join the Club</h2>
-            <p>Ready to become a part of our literary community? Sign up forms go live tomorrow!</p>
+            <p>Ready to become a part of our literary community? Sign up below!</p>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <label for="event">Which event are you most excited for?</label>
+                <select id="event" name="event">
+                    <option value="discussion">Monthly Book Discussion</option>
+                    <option value="spotlight">Author Spotlight</option>
+                    <option value="challenge">Winter Reading Challenge</option>
+                </select>
+
+                <label for="message">What's your favorite book or genre?</label>
+                <textarea id="message" name="message" rows="4"></textarea>
+                
+                <button type="submit">Sign Up</button>
+            </form>
         </section>
 
         <section id="contact" class="box">
