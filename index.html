@@ -69,22 +69,30 @@
             <h2>Join the Club</h2>
             <p>Ready to become a part of our literary community? Sign up below!</p>
             <form>
+            <div class="feild">
                 <label for="name">Your Name:</label>
                 <input type="text" id="name" name="name" required>
+            </div>
+            <div class="feild">  
                 <label for="email">Your Email:</label>
                 <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+            <div class="feild">    
                 <label for="password">Create a Password:</label>
                 <input type="password" id="password" name="password" required>
+            </div>
+            <div class="feild">
                 <label for="event">Which event are you most excited for?</label>
                 <select id="event" name="event">
                     <option value="discussion">Monthly Book Discussion</option>
                     <option value="spotlight">Author Spotlight</option>
                     <option value="challenge">Winter Reading Challenge</option>
                 </select>
-
+             </div>   
+             <div class="feild">
                 <label for="message">What's your favorite book or genre?</label>
                 <textarea id="message" name="message" rows="4"></textarea>
-                
+             </div>   
                 <button type="submit">Sign Up</button>
             </form>
         </section>
