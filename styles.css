@@ -112,7 +112,7 @@ button {
     padding: 10px 20px;
     font: inherit;
     font-weight: bold;
-    background-color: ##ffbe0b;
+    background-color: #ffbe0b;
     color: #5a189a;
     border: none;
     border-radius: 6px;
@@ -133,7 +133,7 @@ button:hover {
 
 .card {
     flex: 1 1 200px;
-    border: 2px solid ##ffbe0b;
+    border: 2px solid #ffbe0b;
     border-radius: 8px;
     padding: 16px;
     background-color: #fffaf3;
