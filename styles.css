@@ -162,6 +162,30 @@ form {
     gap: 4px;
 }
 
+.hero {
+    background-color: rgba(90, 24, 154, 0.85);
+    color: white;
+    padding: 64px 24px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 32px 0;
+}
+
+.hero h2 {
+    color: white;
+    border-bottom: none;
+}
+
+.cta {
+    display: inline-block;
+    background-color: #ffbe0b;
+    color: black;
+    padding: 12px 24px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 .card:nth-child(1) { border-color: #ff595e; }
 .card:nth-child(2) { border-color: #1982c4; }
 .card:nth-child(3) { border-color: #8ac926; }
+
