@@ -12,7 +12,8 @@ header {
     padding: 30px 20px;
     background-color: #5a189a;
     color: white;
-    border-bottom: linear-gradient(to right, #ff595e, #ffbe0b, #8ac926, #1982c4, #5a189a) 1;
+    border-bottom: 8px solid transparent;
+    border-image: linear-gradient(to right, #ff595e, #ffbe0b, #8ac926, #1982c4, #5a189a) 1;
 }
 
 header img {
@@ -111,7 +112,7 @@ button {
     padding: 10px 20px;
     font: inherit;
     font-weight: bold;
-    background-color: #d4a017;
+    background-color: ##ffbe0b;
     color: #5a189a;
     border: none;
     border-radius: 6px;
@@ -120,7 +121,7 @@ button {
 
 button:hover {
     background-color: #5a189a;
-    color: green;
+    color: #ffbe0b;
 }
 
 .cards {
@@ -132,7 +133,7 @@ button:hover {
 
 .card {
     flex: 1 1 200px;
-    border: 2px solid #d4a017;
+    border: 2px solid ##ffbe0b;
     border-radius: 8px;
     padding: 16px;
     background-color: #fffaf3;
