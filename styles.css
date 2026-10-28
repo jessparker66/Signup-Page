@@ -2,8 +2,9 @@ body {
     font-family: Georgia, serif;
     line-height: 1.6;
     margin: 0;
-    background-color:#fffaf3;
-    color: #333;
+    background-image: url("images/colorful_splash.png");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
