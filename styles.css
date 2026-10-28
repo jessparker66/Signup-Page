@@ -91,7 +91,6 @@ footer {
 /* Sign Up Form */
 label {
     display: block;
-    margin-top: 16px;
     font-weight: bold;
     color: #4a1c40;
 }
@@ -107,7 +106,6 @@ input, select, textarea {
 }
 
 button {
-    margin-top: 16px;
     padding: 10px 20px;
     font: inherit;
     font-weight: bold;
@@ -147,3 +145,18 @@ button:hover {
 .compare * {
     outline: 2px dashed tomato;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 30rem;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+
