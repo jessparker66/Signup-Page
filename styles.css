@@ -212,8 +212,3 @@ form {
     }
 }
 
-body.dark {
-    --page-background: #1a1a2e;
-    --text: #f0f0f0;
-    --brand: #c77dff;
-}
