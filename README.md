@@ -64,3 +64,11 @@ A signup page for a painting club where talent is optional and stress relief is 
 | 40 | Added dark mode javascript | Update javascript | main |
 | 41 | Fixed dark mode js | Updated javascript | main |
 | 42 | Updated readme | Updated readme | main |
+| 43 | Changed --brand | Updated css | main |
+| 44 | Update dark mode btn | Updated index.html | main |
+| 45 | Changed colors | Updated css | main |
+| 46 | Fix dark mode and variables | update index.html | main |
+| 47 | Added a image for dark mode | Updated images folder | main |
+| 48 | Updated dark mode styling | Updated css | main |
+| 49 | Deleted duplicate styling | updated css | main |
+| 50 | Updated Readme | Updated readme | main |
