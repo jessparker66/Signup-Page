@@ -1,3 +1,24 @@
+# Brushing It Off
+
+A signup page for a painting club where talent is optional and stress relief is guaranteed.
+
+[See it live](https://jessparker66.github.io/Signup-Page/#join)
+
+## What I used/learned
+
+- Media queries
+- Dark mode with CSS variables and JavaScript
+- border-image and linear gradients
+- nth-child selectors
+- Semantic HTML (header, nav, main, section, footer)
+- A signup form with labels and validation
+
+
+## What I Reinforced
+- Flexbox "Used on cards"
+- Divs, span, and classes
+- Semantic Section
+
 ## ACP log
 | # | What I changed | Commit message | Branch |
 |---|----------------|----------------|--------|
@@ -36,3 +57,10 @@
 | 33 | Edit index.html | Made correction | main |
 | 34 | Edit css | Added styling to hero section | main |
 | 35 | Updated readme | Updated readme | main |
+| 36 | Added media query for hero | Edit css | main |
+| 37 | Corrected media query | Updated css | main |
+| 38 | Updated css | Added dark mode styling | main |
+| 39 | Added javascript file | Updated index.html with script| main |
+| 40 | Added dark mode javascript | Update javascript | main |
+| 41 | Fixed dark mode js | Updated javascript | main |
+| 42 | Updated readme | Updated readme | main |
