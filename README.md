@@ -32,3 +32,7 @@
 | 29 | Edited css | Added a border-image | main |
 | 30 | Edit index.html | Fixed double # mistake | main |
 | 31 | Edit readme | Added to ACP | main |
+| 32 | Edit index.html | Added hero section | main |
+| 33 | Edit index.html | Made correction | main |
+| 34 | Edit css | Added styling to hero section | main |
+| 35 | Updated readme | Updated readme | main |
