@@ -1,7 +1,7 @@
 :root {
     --page-background: white;
     --text: #333;
-    --brand: var(--brand);
+    --brand: #5a189a;
 }
 
 body {
