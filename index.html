@@ -6,14 +6,22 @@
     <title>Brushing It Off</title>
      <link rel="stylesheet" href="styles.css">
 </head>
+    <!--Everything people would see if the visit the site-->
 <body>
+    <!--Header(Semantic tag): The top of the page with the title-->
     <header>
+    <!--img: src =  where the picture is, alt = describes it for people who can't see it-->    
         <img src="images/brushoff.png" alt="A cartoon girl laughing as colorful paint splashes around her.">
+    <!--h1 = Title heading, ONLY ONE PER PAGE-->    
         <h1>Brushing It Off</h1>
+    <!--class = "tagline" lets me style just this paragraph in css (.tagline)-->    
         <p class="tagline">Bad week? Paint it out.</p>
+    <!--id="theme-btn" is how script.js finds this button to switch dark mode-->    
         <button id="theme-btn">Dark mode</button>
     </header>
 
+    <!--NAV(Semantic tag): links that move around the page-->
+    <!--Each href="#name" jumps to the section with the matching id="name"-->
     <nav>
         <a href="#about">About</a>
         <a href="#events">Upcoming Events</a>
@@ -22,13 +30,20 @@
         <a href="#contact">Contact</a>
     </nav>
 
+    <!--Main (Semantic tag): The main contents. ONLY 1 PER PAGE-->
     <main>
+
+        <!--Hero: the big banner visitors see first-->
         <section id="hero" class="hero">
             <h2>Paint Your Worries Away</h2>
             <p>Turn your frustrations into abstract art. Splatter, smear, and swirl your stress onto the canvas. No talent required, just show up and make a beautiful mess.</p>
             <a href="#join" class="cta">Join the Club</a>
         </section>
-        
+    
+        <!--class="cta" call to action. href="#join" jumps down to the form-->
+        <!--class="cta"styles this link to look like a button (display: inline-block)-->
+        <!--Section (semantic tag): a group of related contents with is own heading.-->
+        <!--class="box" give it the border,padding, margin, & background (box style)-->
         <section id="about" class="box">
             <h2>About Us</h2>
             <p>Welcome to Brushing It Off, the painting club for anyone who's had a long day, a rough week, or just needs an excuse to make a mess on purpose. No experience is necessary, and talent is completely optional.</p>
