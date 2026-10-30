@@ -31,10 +31,12 @@
     </nav>
 
     <!--Main (Semantic tag): The main contents. ONLY 1 PER PAGE-->
+   
     <main>
 
-        <!--Hero: the big banner visitors see first-->
-        <section id="hero" class="hero">
+    <!--Hero: the big banner visitors see first-->
+    
+    <section id="hero" class="hero">
             <h2>Paint Your Worries Away</h2>
             <p>Turn your frustrations into abstract art. Splatter, smear, and swirl your stress onto the canvas. No talent required, just show up and make a beautiful mess.</p>
             <a href="#join" class="cta">Join the Club</a>
@@ -44,13 +46,20 @@
         <!--class="cta"styles this link to look like a button (display: inline-block)-->
         <!--Section (semantic tag): a group of related contents with is own heading.-->
         <!--class="box" give it the border,padding, margin, & background (box style)-->
+        
         <section id="about" class="box">
             <h2>About Us</h2>
             <p>Welcome to Brushing It Off, the painting club for anyone who's had a long day, a rough week, or just needs an excuse to make a mess on purpose. No experience is necessary, and talent is completely optional.</p>
         </section>
 
+        <!--Flexbox card row-->
+
         <section id="reasons" class="box">
             <h2>Three Reasons to Join</h2>
+          
+        <!--.card is the flex container (display: flex in css)-->
+        <!--The three .card divs inside it line up in a row and wrap on small screens-->
+          
             <div class="cards">
                 <div class="card">
                     <h3>Stress Relief one Stroke at a Time</h3>
@@ -67,12 +76,23 @@
             </div>
         </section>
 
+<!--BLOCK vs INLINE DEMO-->
+<!--Two classes: "compare adds the dashed outlines, "box" adds the white card (added that so I can see the section in dark mode)-->
+
 <section id="how-built" class="compare box">
     <h2>How This Page Is Built</h2>
+   
+<!--div = BLOCK: starts on a new line, takes the full width-->   
+
     <div>This is a div. It's a block.</div>
+   
+<!--p = BLOCK: span and a = INLINE: stay in the line. only as wide as their words -->   
+   
     <p>This is a p. It's a block too, with a <span>span inside it</span> and a <a href="#join">link</a>, which are inline elements.</p>
     <p>The div and p containers stretch the full width of the page and start on new lines, while the span and link containers are restricted to the width of the words and do not start on new lines.</p>
 </section>
+
+<!--EVENTS: ul - unordered (bulleted) list, li = one list item-->
 
         <section id="events" class="box">
             <h2>Upcoming Events</h2>
@@ -88,16 +108,32 @@
             <p>Check out where our events are happening! After signing up, you'll be able to view the full schedule here!</p>
         </section>
 
+    <!--SIGNUP FORM. id="join" is where the nav link and CTA button jump to-->
+
         <section id="join" class="box">
             <h2>Join the Club</h2>
             <p>Ready to become a part of our creatively calm community? Sign up below!</p>
+            
+    <!--The form is a FLEX CONTAINER with flex-direction: column, so fields stack evenly-->    
+    <!--It has nowhere to send answers yet, so after submit they show up in the url-->
+
             <form>
+
+    <!--Each .field div holds one label + one input-->
+
+    <!--The label's for="name" matches the input's id = "name", so clicking the label puts the cursor in the box-->
+    <!--name="name" is what the answer is called when the form is sent-->
             <div class="field">
                 <label for="name">Your Name:</label>
+                <!--required = the form won't send if this is empty-->
+                
                 <input type="text" id="name" name="name" required>
             </div>
             <div class="field">  
                 <label for="email">Your Email:</label>
+                <!--type="email" = the browser checks it looks like an email-->
+                <!--placeholder = gray hint text that disappears when you type-->
+
                 <input type="email" id="email" name="email" placeholder="you@example.com" required>
             </div>
             <div class="field">    
@@ -106,6 +142,11 @@
             </div>
             <div class="field">
                 <label for="event">Which event are you most excited for?</label>
+                <!--type="password" shows dots instead of letters-->
+                
+                <!--Only use fake passwords: answer end up in the URL, and URLs aren't secret-->
+                <!--value = what gets sent, the text between the tags = what people see-->
+                
                 <select id="event" name="event">
                     <option value="paint-away">Bad Day Paint Away</option>
                     <option value="pajama party">Pajamas Paint Party</option>
@@ -114,9 +155,14 @@
              </div>   
              <div class="field">
                 <label for="message">What's your favorite painting style or medium?</label>
+                <!--textarea = a bigger box for longer answer. rows="4" sets its height-->
+                
                 <textarea id="message" name="message" rows="4"></textarea>
              </div>   
-                <button type="submit">Sign Up</button>
+             
+             <!--type="submit" sends the form. It's outside the .field divs-->
+
+             <button type="submit">Sign Up</button>
             </form>
         </section>
 
@@ -126,9 +172,14 @@
         </section>
     </main>
 
+<!--FOOTER (semantic tag): the bottom page with credits-->
+
     <footer>
         <p>&copy; 2026 Brushing It Off made by Jess D in CodeX Academy. All images ai-generated in Midjourney. All rights reserved.</p>
     </footer>
+
+<!-- Loads my JavaScript (the dark mode button). It's at the bottom so the page loads first, which means the button already exist when script.js looks for it-->
+
 <script src="script.js"></script>
 </body>
 </html>
